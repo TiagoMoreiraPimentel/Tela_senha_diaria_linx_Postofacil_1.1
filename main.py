@@ -14,7 +14,7 @@ class Ui_mainWindow(object):
         self.centralwidget.setObjectName("centralwidget")
         self.frame = QtWidgets.QFrame(self.centralwidget)
         self.frame.setGeometry(QtCore.QRect(-10, 0, 311, 81))
-        self.frame.setStyleSheet("image: url('C:/Users/nitro/Desktop/projeto senha diaria linx/no3.png');")
+        self.frame.setStyleSheet("image : url(no3.png)")
         self.frame.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.frame.setFrameShadow(QtWidgets.QFrame.Raised)
         self.frame.setObjectName("frame")
